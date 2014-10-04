@@ -136,6 +136,10 @@ func (auth *Authorization) SetRequestSecret(s string) {
 // ValidateRequest expects
 func (auth *Authorization) ValidateRequest(method string, u *url.URL, form url.Values) (bool, error) {
 
+	// Portions of this code where taken from
+	// https://github.com/garyburd/go-oauth, released under the Apache License
+	// 2.0.
+
 	if auth.Client.Secret == "" {
 		return false, ErrMissingClientSecret
 	}
