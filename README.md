@@ -26,7 +26,8 @@ valid, err = auth.ValidateRequest("GET", req.URL, form)
 ```
 
 ## License
-> Copyright (c) 2014 José Carlos Nieto, https://menteslibres.net/xiam
+> Copyright (c) 2014 Intangible Investments S.A.P.I. de C.V,
+> https://intangible.mx
 >
 > Permission is hereby granted, free of charge, to any person obtaining
 > a copy of this software and associated documentation files (the
